@@ -2,17 +2,17 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="mar-top-sm mar-bot-sm">
       <nav>
         <div>
           <p className="logo">Sushant Nayak</p>
         </div>
         <div className="nav-links">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Courses</a>
-          <a href="">Resume</a>
-          <a href="">Contact</a>
+          <a href="#home">Home</a>
+          <a href="#course">Courses</a>
+          <a href="#about">About</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
         </div>
       </nav>
     </header>
