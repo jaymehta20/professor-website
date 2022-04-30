@@ -22,8 +22,12 @@ export default function Home() {
                 fullest benefits of the organization and society.
               </p>
               <div className="mar-bot-sm buttons">
-                <button className="btn btn-filled">Courses</button>
-                <button className="btn btn-outline">Contact</button>
+                <a className="btn btn-filled" href="#course">
+                  Courses
+                </a>
+                <a className="btn btn-outline" href="#contact">
+                  Contact
+                </a>
               </div>
               <div className="social-icons">
                 <SocialIcon
@@ -120,6 +124,14 @@ export default function Home() {
               ></iframe>
             </div>
           </div>
+          <a
+            className="btn btn-filled mar-bot-md center"
+            href="https://www.youtube.com/embed/TaPdgj8mucI"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open Youtube Channel
+          </a>
         </section>
         <section className="about mar-bot-md" id="about">
           <div className="about-content">
@@ -161,7 +173,12 @@ export default function Home() {
         <section className="contact mar-bot-md" id="contact">
           <div className="contact-form">
             <h2 className="mar-bot-sm">Contact</h2>
-            <form action="#">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="3635cc12-6319-4b9e-8ba8-53de5aa140d7"
+              />
               <div>
                 <p>Full name</p>
                 <input type="text" name="name" />
