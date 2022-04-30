@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import Layout from "../components/Layout";
@@ -6,9 +5,6 @@ import Layout from "../components/Layout";
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Sushant Nayak - Portfolio Website</title>
-      </Head>
       <Layout>
         <main id="home">
           <div className="hero">

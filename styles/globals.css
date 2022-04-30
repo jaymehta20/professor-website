@@ -307,3 +307,71 @@ footer {
   flex-direction: column;
   gap: 1.5rem;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    margin: 6vh 0;
+  }
+  .buttons {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .course-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  .iframe-video {
+    width: 70%;
+  }
+  .about {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .contact {
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    gap: 0;
+  }
+  footer {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .iframe-video {
+    width: 100%;
+  }
+  .info-cards {
+    flex-direction: column;
+  }
+  .exp-count {
+    flex-direction: column;
+  }
+  .contact {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+  }
+}
