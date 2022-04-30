@@ -173,12 +173,10 @@ export default function Home() {
         <section className="contact mar-bot-md" id="contact">
           <div className="contact-form">
             <h2 className="mar-bot-sm">Contact</h2>
-            <form action="https://api.web3forms.com/submit" method="POST">
-              <input
-                type="hidden"
-                name="access_key"
-                value="3635cc12-6319-4b9e-8ba8-53de5aa140d7"
-              />
+            <form
+              action="https://airform.io/jake2001007@gmail.com"
+              method="POST"
+            >
               <div>
                 <p>Full name</p>
                 <input type="text" name="name" />
