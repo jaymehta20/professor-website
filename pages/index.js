@@ -50,10 +50,13 @@ export default function Home() {
             </div>
             <div className="hero-image">
               <Image
-                src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80"
+                src="/hero.jpeg"
                 alt="Professor"
                 width={600}
                 height={400}
+                quality={100}
+                placeholder="blur"
+                blurDataURL
               />
             </div>
           </div>
@@ -151,10 +154,13 @@ export default function Home() {
           </div>
           <div className="about-img">
             <Image
-              src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80"
-              alt="Professor"
+              src="/hero.jpeg"
               width={600}
               height={400}
+              quality={100}
+              placeholder="blur"
+              blurDataURL
+              alt="Professor"
             />
           </div>
         </section>
