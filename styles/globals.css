@@ -272,6 +272,7 @@ input {
   background-color: transparent;
   font-family: "Work Sans", sans-serif;
   font-size: 1.2rem;
+  color: var(--clr-white);
 }
 textarea {
   border: none;
@@ -282,10 +283,6 @@ textarea {
   font-family: "Work Sans", sans-serif;
   font-size: 1.2rem;
   resize: none;
-  color: var(--clr-white);
-}
-
-input:focus {
   color: var(--clr-white);
 }
 
