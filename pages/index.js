@@ -1,9 +1,13 @@
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
     <>
-      <h1>Navbar</h1>
+    <Head>
+      <title>Sushant Nayak - Portfolio Website</title>
+    </Head>
+      <Layout/>
     </>
   );
 }
