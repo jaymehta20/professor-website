@@ -28,9 +28,9 @@ export default function Home() {
               </div>
               <Socialicons />
             </div>
-            <div className="hero-image">
+            <div>
               <Image
-                src="/hero.jpeg"
+                src="/images/1.jpg"
                 alt="Professor"
                 width={600}
                 height={400}
@@ -132,9 +132,9 @@ export default function Home() {
               benefits of the organization and society.
             </p>
           </div>
-          <div className="about-img">
+          <div>
             <Image
-              src="/hero.jpeg"
+              src="/images/2.jpg"
               width={600}
               height={400}
               quality={100}
@@ -156,7 +156,7 @@ export default function Home() {
           <div className="contact-form">
             <h2 className="mar-bot-sm">Contact</h2>
             <form
-              action="https://airform.io/jake2001007@gmail.com"
+              action="https://airform.io/susanta.nayak@bharatividyapeeth.edu"
               method="POST"
             >
               <div>
