@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import Layout from "../components/Layout";
+import Socialicons from "../components/Socialicons";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <main id="home">
           <div className="hero">
             <div className="hero-content">
-              <h1 className="mar-bot-xs">Sushant Nayak</h1>
+              <h1>Sushant Nayak</h1>
               <p className="subtitle mar-bot-sm">Assistant Professor</p>
               <p className="mar-bot-sm">
                 To utilize my teaching skills towards a challenging career in
@@ -25,28 +26,7 @@ export default function Home() {
                   Contact
                 </a>
               </div>
-              <div className="social-icons">
-                <SocialIcon
-                  url="https://facebook.com/jaketrent"
-                  bgColor="transparent"
-                  fgColor="white"
-                />
-                <SocialIcon
-                  url="https://instagram.com/jaketrent"
-                  bgColor="transparent"
-                  fgColor="white"
-                />
-                <SocialIcon
-                  url="https://twitter.com/jaketrent"
-                  bgColor="transparent"
-                  fgColor="white"
-                />
-                <SocialIcon
-                  url="https://linkedin.com/jaketrent"
-                  bgColor="transparent"
-                  fgColor="white"
-                />
-              </div>
+              <Socialicons />
             </div>
             <div className="hero-image">
               <Image
@@ -102,14 +82,14 @@ export default function Home() {
           <div className="iframe-container__video course-cards mar-bot-md">
             <iframe
               className="iframe-video"
-              src="https://www.youtube.com/embed/DzZXRvk3EGg"
+              src="https://youtube.com/embed/RyHbrCnha1s"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
             <div className="iframe-container__video">
               <iframe
                 className="iframe-video"
-                src="https://www.youtube.com/embed/jBmrduvKl5w"
+                src="https://youtube.com/embed/37IBoCyMNxE"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>
@@ -117,7 +97,7 @@ export default function Home() {
             <div className="iframe-container__video">
               <iframe
                 className="iframe-video"
-                src="https://www.youtube.com/embed/TaPdgj8mucI"
+                src="https://youtube.com/embed/9v1oA_FQ7tg"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>
@@ -125,7 +105,7 @@ export default function Home() {
           </div>
           <a
             className="btn btn-filled mar-bot-md center"
-            href="https://www.youtube.com/embed/TaPdgj8mucI"
+            href="https://www.youtube.com/channel/UCdoNRGom4u6G4bbeZ_EQ61g"
             target="_blank"
             rel="noreferrer"
           >
@@ -134,8 +114,8 @@ export default function Home() {
         </section>
         <section className="about mar-bot-md" id="about">
           <div className="about-content">
-            <h2>About</h2>
-            <p>
+            <h2 className="mar-bot-xs">About</h2>
+            <p className="mar-bot-xs">
               To utilize my teaching skills towards a challenging career in
               growth oriented and leading edge that will provide mutual benefits
               and where from I can utilize my capabilities to the fullest
@@ -164,14 +144,14 @@ export default function Home() {
             />
           </div>
         </section>
-        <section className="resume mar-bot-md" id="resume">
+        {/* <section className="resume mar-bot-md" id="resume">
           <h2>Resume</h2>
           <div className="info-cards">
             <div className="info-card"></div>
             <div className="info-card"></div>
             <div className="info-card"></div>
           </div>
-        </section>
+        </section> */}
         <section className="contact mar-bot-md" id="contact">
           <div className="contact-form">
             <h2 className="mar-bot-sm">Contact</h2>
@@ -199,8 +179,14 @@ export default function Home() {
           <div className="contact-details">
             <div className="mar-bot-sm">
               <h3 className="mar-bot-xs">Email</h3>
-              <p>Sushantnayak@gmail.com</p>
-              <p>NayakSushant@gmail.com</p>
+              <p>
+                <a href="mailto:susanta.nayak@bharatividyapeeth.edu">
+                  susanta.nayak@bharatividyapeeth.edu
+                </a>
+              </p>
+              <p>
+                <a href="mailto:chhuanna@gmail.com">chhuanna@gmail.com</a>
+              </p>
             </div>
             <div>
               <h3 className="mar-bot-xs">Based in</h3>

@@ -1,11 +1,16 @@
-import { SocialIcon } from "react-social-icons";
+import Socialicons from "./Socialicons";
 function Footer() {
   return (
-    <footer className="mar-bot-sm">
+    <footer className="mar-bot-md">
       <div>
         <p className="logo mar-bot-sm">Sushant Nayak</p>
         <p>All rights reserved &copy; 2022</p>
-        <p>Made by Jay Mehta &amp; Tejas Mane </p>
+        <p>
+          Made by{" "}
+          <a href="https://codegra.in/" target="_blank" rel="noreferrer">
+            Codegrain
+          </a>
+        </p>
       </div>
       <div>
         <p className="logo mar-bot-xs">Navigation</p>
@@ -17,28 +22,7 @@ function Footer() {
           <a href="#contact">Contact</a>
         </div>
       </div>
-      <div className="social-icons">
-        <SocialIcon
-          url="https://facebook.com/jaketrent"
-          bgColor="transparent"
-          fgColor="white"
-        />
-        <SocialIcon
-          url="https://instagram.com/jaketrent"
-          bgColor="transparent"
-          fgColor="white"
-        />
-        <SocialIcon
-          url="https://twitter.com/jaketrent"
-          bgColor="transparent"
-          fgColor="white"
-        />
-        <SocialIcon
-          url="https://linkedin.com/jaketrent"
-          bgColor="transparent"
-          fgColor="white"
-        />
-      </div>
+      <Socialicons />
     </footer>
   );
 }
