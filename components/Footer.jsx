@@ -7,8 +7,22 @@ function Footer() {
         <p>All rights reserved &copy; 2022</p>
         <p>
           Made by{" "}
-          <a href="https://codegra.in/" target="_blank" rel="noreferrer">
-            Codegrain
+          <a
+            href="https://jaymehta.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: "underline" }}
+          >
+            Jay Mehta
+          </a>{" "}
+          &amp;{" "}
+          <a
+            href="https://tejasmane.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: "underline" }}
+          >
+            Tejas Mane
           </a>
         </p>
       </div>
